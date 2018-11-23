@@ -1,1 +1,18 @@
-ECHO est  activado.
+body{
+ background-image: foto3.png;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+
+h1{
+	background-color:black;
+}
+
+#contenedor{
+  background-color: blue;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+  border-color: #083ea3;
+}
