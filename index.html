@@ -1,1 +1,37 @@
-ECHO est  activado.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>git</title>
+	<!--CONECTANDO BOOTSTRAP-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--CONECTANDO ESTILOS CSS-->
+	<link rel="stylesheet" href="css/texto.css">
+</head>
+<body>
+	<div id="pantalla1">
+	<div id="contenedor">
+	<h1>Primer intento con git XD</h1>
+	<h2>Descripcion</h2>
+	<p>Este es el primer intento para subir archivos por separado a git.</p>
+	<p>A todos los que trabajan en este proyecto les gusta el rey leon.</p>
+	  <button id="boton">ir a la siguiente pantalla</button>
+    </div>
+    </div>
+    <div class="pantalla2 d-none">
+    	<h2>En esta pantalla estoy parcticando javascript :)</h2>
+    	<p>Esto es contenido para que la pagina no quede vacia y no quede todo horrible XD.</p>
+    </div>
+    <script type="text/javascript">
+    	
+     function manejarBoton(){
+     	document.querySelector("#pantalla1").classList.add("d-none");
+     	document.querySelector(".pantalla2").classList.remove("d-none");
+     }
+
+    document.querySelector("#boton").addEventListener("click",manejarBoton);
+
+    </script>
+</body>
+</html>
+
